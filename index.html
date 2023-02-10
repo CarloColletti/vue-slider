@@ -105,7 +105,7 @@
 
                 <div class="my-carousel-thumbs" id="thumbs-container">
                     <div class="col thumb">
-                        <img src="game" v-for="game in games.image">
+                        <img :src="game.image" v-for="game in games">
                     </div>
                 </div>
             </div>
