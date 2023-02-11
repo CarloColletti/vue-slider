@@ -41,18 +41,14 @@
             <div class="my-carousel">
                 <div class="my-carousel-main" id="slides-container">
 
-                    <!-- <div class="slide active">
-                        <img src="./img/01.webp">
+                    <div class="slide">
+                        <img :src="fullImg[contatore.active_img]" v-for="(fullImg, index) in games.image">
                         <div class="slide-text">
-                            <h2>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita voluptatum unde
-                                laboriosam
-                                molestiae.</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste deserunt doloremque hic eaque
-                                culpa
-                                aspernatur.</p>
+                            <h2></h2>
+                            <p></p>
                         </div>
                     </div>
-    
+                    <!--
                     <div class="slide">
                         <img src="./img/02.webp">
                         div.te

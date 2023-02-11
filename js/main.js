@@ -39,6 +39,9 @@ createApp({
                 }
             ],
 
+            contatore: {
+                active_img: 0,
+            }
         }
     },
 
@@ -46,9 +49,7 @@ createApp({
 
     },
 
-
 }).mount('#root')
-
 
 
 
